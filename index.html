@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alejandro Romero Rodríguez · Portfolio</title>
+<meta name="description" content="Portfolio de Alejandro Romero Rodríguez, estudiante de Sistemas Microinformáticos y Redes.">
+<script>try{var t=localStorage.getItem("theme")||(matchMedia("(prefers-color-scheme: light)").matches?"light":"dark");document.documentElement.dataset.theme=t;var l=localStorage.getItem("lang");if(l)document.documentElement.lang=l}catch(e){}</script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main" data-i18n="skip">Saltar al contenido</a>
+<header class="bar">
+  <a class="brand" href="#inicio" aria-label="Alejandro Romero Rodríguez"><span class="dot"></span>ar<span class="cur">_</span></a>
+  <nav id="nav" aria-label="Principal">
+    <a href="#sobre-mi" data-i18n="nav_about">Sobre mí</a>
+    <a href="#habilidades" data-i18n="nav_skills">Habilidades</a>
+    <a href="#formacion" data-i18n="nav_edu">Formación</a>
+    <a href="#practicas" data-i18n="nav_prac">Prácticas</a>
+    <a href="#contacto" data-i18n="nav_contact">Contacto</a>
+    <a href="#curriculum" data-i18n="nav_cv">Currículum</a>
+  </nav>
+  <div class="tools">
+    <button id="langBtn" class="tool" type="button"><span id="langLbl">EN</span></button>
+    <button id="themeBtn" class="tool" type="button"><span id="themeIco" aria-hidden="true"></span></button>
+    <button id="menuBtn" class="tool menu" type="button" aria-expanded="false" aria-controls="nav"><span aria-hidden="true">☰</span></button>
+  </div>
+</header>
+
+<main id="main">
+<section id="inicio" class="hero">
+  <div class="hero-text">
+    <p class="status"><span class="led"></span><span data-i18n="status">Buscando prácticas</span></p>
+    <h1>Alejandro<br>Romero Rodríguez</h1>
+    <p class="role" data-i18n="role">Estudiante de 2.º curso de Sistemas Microinformáticos y Redes</p>
+    <p class="lead" data-i18n="lead">Formándome en el Grado Medio SMR en modalidad Dual. Busco aplicar lo que he aprendido en un entorno profesional y seguir creciendo.</p>
+    <div class="actions">
+      <a class="btn primary" href="#sobre-mi" data-i18n="btn_about">Conóceme</a>
+      <a class="btn" href="#curriculum" data-i18n="btn_cv">Ver currículum</a>
+      <a class="txt" href="#contacto" data-i18n="btn_write">Escríbeme</a>
+    </div>
+  </div>
+  <div class="hero-visual">
+    <figure class="photo">
+      <img src="assets/foto.jpg" alt="" width="326" height="435" fetchpriority="high" data-i18n-alt="photo_alt">
+      <span class="chip">SMR · Dual</span>
+    </figure>
+    <div class="term" role="img" data-i18n-aria="term_aria">
+      <div class="term-bar"><i></i><i></i><i></i><span>alejandro@smr:~</span></div>
+      <pre id="termOut" aria-hidden="true"></pre>
+    </div>
+  </div>
+</section>
+
+<section id="sobre-mi" class="sec">
+  <h2 data-i18n="about_t">Sobre mí</h2>
+  <div class="two">
+    <div class="prose">
+      <p data-i18n="about_p1">Soy Alejandro, estudiante de segundo curso del Grado Medio de Sistemas Microinformáticos y Redes, en modalidad Dual. Combino la formación en el centro con experiencia real en un equipo TIC.</p>
+      <p data-i18n="about_p2">Soy responsable y puntual, trabajo bien en equipo y me gusta crear buen ambiente.</p>
+      <p data-i18n="about_p3">Mi objetivo es aplicar mis conocimientos en un entorno profesional y seguir aprendiendo.</p>
+    </div>
+    <dl class="facts">
+      <div><dt data-i18n="f_study">Estudios</dt><dd data-i18n="f_study_v">CFGM Sistemas Microinformáticos y Redes (Dual)</dd></div>
+      <div><dt data-i18n="f_center">Centro</dt><dd>San Juan Bosco</dd></div>
+      <div><dt data-i18n="f_year">Curso</dt><dd data-i18n="f_year_v">Segundo año</dd></div>
+      <div><dt data-i18n="f_lang">Idiomas</dt><dd data-i18n="f_lang_v">Español, inglés</dd></div>
+    </dl>
+  </div>
+</section>
+
+<section id="habilidades" class="sec">
+  <h2 data-i18n="sk_t">Habilidades</h2>
+  <div class="grid3">
+    <article class="card"><h3 data-i18n="sk_mod">Módulos del ciclo</h3>
+      <ul class="tags"><li data-i18n="m1">Montaje y mantenimiento de equipos</li><li data-i18n="m2">Sistemas operativos</li><li data-i18n="m3">Redes locales</li><li data-i18n="m4">Aplicaciones ofimáticas</li><li data-i18n="m5">Seguridad informática</li><li data-i18n="m6">Servicios en red</li></ul></article>
+    <article class="card"><h3 data-i18n="sk_tools">Herramientas</h3>
+      <ul class="tags"><li>Canva</li><li>Google Docs</li><li>Word</li><li data-i18n="t_social">Redes sociales</li></ul></article>
+    <article class="card"><h3 data-i18n="sk_soft">Competencias</h3>
+      <ul class="tags"><li data-i18n="s1">Trabajo en equipo</li><li data-i18n="s2">Comunicación</li><li data-i18n="s3">Interacción social</li><li data-i18n="s4">Orientación a resultados</li><li data-i18n="s5">Proactividad</li><li data-i18n="s6">Adaptabilidad</li></ul></article>
+  </div>
+</section>
+
+<section id="formacion" class="sec">
+  <h2 data-i18n="ed_t">Formación académica</h2>
+  <ol class="line">
+    <li><span class="node live"></span><h3 data-i18n="ed1">Grado Medio en Sistemas Microinformáticos y Redes (Dual)</h3><p>CPEIPS San Juan Bosco</p><p class="meta"><span data-i18n="ed1_d">2025 – actualidad</span> <b class="badge" data-i18n="ed1_b">En curso</b></p></li>
+    <li><span class="node"></span><h3 data-i18n="ed2">Educación Secundaria Obligatoria (ESO)</h3><p>Lasalle Arucas</p><p class="meta"><span>2021 – 2025</span> <b class="badge off" data-i18n="ed2_b">Finalizada</b></p></li>
+  </ol>
+</section>
+
+<section id="practicas" class="sec">
+  <h2 data-i18n="pr_t">Prácticas</h2>
+  <article class="card wide"><h3 data-i18n="pr1">Equipo TIC · Lasalle Arucas</h3><p class="meta" data-i18n="pr1_d">Prácticas FP Dual · abril – junio 2026</p><p data-i18n="pr1_p">Participé en las actividades del equipo TIC del colegio, entre otras actividades variadas.</p></article>
+  <h3 class="sub" data-i18n="pj_t">Proyectos</h3>
+  <div id="projects" class="grid3"></div>
+</section>
+
+<section id="contacto" class="sec">
+  <h2 data-i18n="ct_t">Contacto</h2>
+  <p data-i18n="ct_p">Si tu empresa ofrece prácticas, estaré encantado de hablar.</p>
+  <p class="mail"><span data-i18n="ct_mail">Correo</span>: <span id="mail"></span></p>
+  <ul id="links" class="links"></ul>
+</section>
+
+<section id="curriculum" class="sec">
+  <h2 data-i18n="cv_t">Currículum</h2>
+  <p data-i18n="cv_p">Consulta o descarga mi currículum en PDF.</p>
+  <div class="actions"><a id="cvView" class="btn primary" target="_blank" rel="noopener" data-i18n="cv_view">Ver</a><a id="cvDl" class="btn" download data-i18n="cv_dl">Descargar</a></div>
+</section>
+</main>
+<footer class="foot">© 2026 Alejandro Romero Rodríguez</footer>
+<script src="script.js"></script>
+</body>
+</html>
