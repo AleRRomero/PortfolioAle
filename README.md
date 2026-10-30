@@ -1,0 +1,1 @@
+Este es mi portfolio personal. Soy Alejandro Romero Rodríguez, estudiante de segundo curso del Grado Medio de Sistemas Microinformáticos y Redes. Aquí presento quién soy, mi formación, mis prácticas y mi currículum, para que las empresas puedan conocerme y contactar conmigo.
